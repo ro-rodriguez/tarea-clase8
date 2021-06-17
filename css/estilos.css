@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2? family = Benne & display = swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFFFF;
+    color: #303233;
+    font-size: 1.2em;
+    background: url('../imagenes/fondo_body.jpg') repeat;
+}
+figure{
+    width: 100%;
+    height: 35vh;
+    background: #00a0cf;
+    line-height: 0;
+    background: url('../imagenes/fondo_header.jpg') no-repeat;  
+    text-align: center;
+}
+img{
+    margin-top: 25px;
+    border: 3px solid white;
+    border-radius: 50px 10px;
+}
+nav{
+    text-align: center;
+    margin-top: 2.6em;
+}
+nav a{
+    font-family: Verdana, Tahoma, sans-serif;
+    text-decoration: none;
+    background-color: rgba(119,	181, 254, 0.9);
+    color: #303233;
+    padding: 0.6em;
+    border: 2px solid #303233;
+    border-radius: 50px 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+h1, h2{
+    background: #303233;
+    font-family: 'Benne', serif;
+    color: #FFFFFF;
+    text-transform:  uppercase;
+    letter-spacing: 8px;
+}
+h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.55em;
+    border-bottom: 3px solid #00a0cf;
+}
+h2{
+    padding: 0.4em;
+    border-bottom: 3px solid #00a0cf;
+    border-left: 3px solid #00a0cf;
+    font-size: 1.3em;
+}
+p{
+    line-height: 1.3em;
+}
+div, #lista {
+    padding: 1em 3em;
+}
+#lista{
+    list-style: none;
+}
+.ident_p{
+    text-indent: 50px;
+}
+section{
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+footer{
+    height: 50px;
+    line-height: 50px;;
+}
+footer p{
+    height: 50px;
+    line-height: 50px;
+    background: #303233;
+    color: #00a0cf;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+}
+#redes{
+    padding-top: 1em;
+    background: #303233;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#uno a{
+    flex:1;
+}
+#dos a{
+    flex:1;
+}
+#tres a{
+    flex:1;
+}
+#redes li {
+    font-size: 1.1em;
+    margin-left: 1.3em;
+}
+#redes li a{
+    text-decoration: none;
+    color: white;
+}
+.fa-linkedin-in, .fa-instagram, .fa-twitter{
+    color: white;
+    margin-right: 0.3em;
+    font-size: 1.3em;;
+}
+
+
+
